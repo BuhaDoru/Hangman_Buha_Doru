@@ -40,7 +40,6 @@
       }
 
       function updateHangman() {
-          // Draws:
           if (livesLeft == 5) {
               draw.arc(330, 100, 20, 0, 2 * Math.PI);
           } else if (livesLeft == 4) { 
